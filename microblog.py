@@ -1,9 +1,1 @@
-from flask import Flask
-
-app= Flask("microblog")
-
-@app.route("/")
-def index():
-    return "olámundo"
-
-app.run()
+from app import app
